@@ -80,10 +80,11 @@
   {
     "name": "HTML",
     "extensions": [
-      "html"
+      "html",
+      "htm"
     ],
     "mediaType": "text/html",
-    "inputFamily": "TEXT",
+    "inputFamily": "WEB",
     "storeProperties": {
       "SPREADSHEET": {
         "FilterName": "HTML (StarCalc)"
@@ -102,7 +103,7 @@
       "xhtml"
     ],
     "mediaType": "application/xhtml+xml",
-    "inputFamily": "TEXT",
+    "inputFamily": "WEB",
     "storeProperties": {
       "SPREADSHEET": {
         "FilterName": "XHTML Calc File"
@@ -430,6 +431,9 @@
       },
       "TEXT": {
         "FilterName": "writer_pdf_Export"
+      },
+      "WEB": {
+        "FilterName": "writer_web_pdf_Export"
       }
     }
   },

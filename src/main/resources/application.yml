@@ -25,3 +25,12 @@ jodconverter:
 logging:
   level:
     org.jodconverter: info
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      show-details: always
